@@ -16,3 +16,4 @@
  - Use the .ppm file format for images, though it appears to be old and depreceated.
   - Look into other file formats
  - Start out with basic bar code, and work my way up to a full on QR code
+ - **NEW** For large data sets use a url to store the text, and have the QR code point to the url (Possibly use flask for this)
