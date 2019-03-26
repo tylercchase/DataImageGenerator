@@ -5,4 +5,8 @@
 #ifndef QRCODE_DATACODING_HPP
 #define QRCODE_DATACODING_HPP
 
+void encodeImage(const std::string &outputFile, std::vector<std::string> &dataPoints);
+
+std::string decodeImage(const std::string &inputFile);
+
 #endif //QRCODE_DATACODING_HPP
